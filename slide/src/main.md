@@ -1,5 +1,5 @@
 ---
-title: Slide 模板
+title: RNN算法综述
 separator: <!--s-->
 verticalSeparator: <!--v-->
 theme: simple
@@ -16,13 +16,40 @@ revealOptions:
 <div class="middle center">
 <div style="width: 100%">
 
-# Slide 模版
+<img src="assets/bjtu_logo.PNG" alt="RNN Overview" style="width: 500px;"/>
+
+# RNN算法综述
 
 <hr/>
 
-By [@TonyCrane](https://github.com/TonyCrane)
+22231301 杨龙澧
+
+计科2206
+
+<div style="text-align: right; font-size: 24pt;">
+<div style="width: 90%">
+2024.10.4
+</div>
+</div>
 
 </div>
+</div>
+
+<!--v-->
+<div style="width: 100%">
+
+# 目录
+
+<hr class="blue-line">
+
+1. 定义概念 
+2. 背景介绍
+3. 算法介绍 
+4. 总结展望
+5. 算法比较
+6. 学习心得
+7. 参考文献
+
 </div>
 
 <!--s-->
@@ -30,13 +57,11 @@ By [@TonyCrane](https://github.com/TonyCrane)
 <div class="middle center">
 <div style="width: 100%">
 
-# Part.1 大标题
-
-一些 markdown
+# Part.1 定义概念
 
 </div>
 </div>
-
+</section>
 
 <!--v-->
 
@@ -83,11 +108,11 @@ fn main() {
 <div class="middle center">
 <div style="width: 100%">
 
-# Part.2 布局
+# Part.2 算法发展
 
 </div>
 </div>
-
+</section>
 <!--v-->
 
 ## 多列布局
@@ -100,7 +125,8 @@ fn main() {
 - list
 - list
 
-</div>
+</div> <!--这是第一列结束-->
+
 <div class="col">
 
 第二列
@@ -113,8 +139,8 @@ class MyClass:
         ...
 ```
 
-</div>
-</div>
+</div> <!--这是第二列结束-->
+</div> <!--这是第一组多列结束-->
 
 <div class="mul-cols">
 <div class="col">
@@ -145,6 +171,66 @@ class MyClass:
     def method(self, ...):
         ...
 ```
+
+</div>
+</div>
+
+<!--s-->
+
+<div class="middle center">
+<div style="width: 100%">
+
+# Part.3 实现流程
+
+一些 markdown
+
+</div>
+</div>
+
+<!--s-->
+
+<div class="middle center">
+<div style="width: 100%">
+
+# Part.4 应用实例
+
+一些 markdown
+
+</div>
+</div>
+
+<!--s-->
+
+<div class="middle center">
+<div style="width: 100%">
+
+# Part.5 算法比较
+
+一些 markdown
+
+</div>
+</div>
+
+<!--s-->
+
+<div class="middle center">
+<div style="width: 100%">
+
+# Part.6 学习心得
+
+一些 markdown
+
+</div>
+</div>
+
+<!--s-->
+
+<div class="middle center">
+<div style="width: 100%">
+
+# 参考文献
+
+一些 markdown
 
 </div>
 </div>
