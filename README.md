@@ -1,18 +1,20 @@
-# TonyCrane's Slide Template
+# Get a Quick Start
 
-一个 [reveal-md](https://github.com/webpro/reveal-md) 的简单主题，部分参考了 [jyywiki](https://jyywiki.cn) 的主题。（应该会随着我的使用不断更新）
+Forked from: [TonyCrane's Slide Template](https://github.com/TonyCrane/slide-template)
 
-预览：https://slides.tonycrane.cc/RevealmdTemplate
-
-- custom.css：亮色主题，载入即可
-- dark.css：暗色配置，使用需附带在 custom.css 后面
-
-~~对于我这种停留在 html+css 的前端水平，当然是宁可多糊 html 也不愿意写个预处理插件。~~ 在 `.vscode/snippets.code-snippets` 中是一些方便糊 html 的代码片段。
+> [!note]
+> 预览参考TonyCrane's Slide Template：https://slides.tonycrane.cc/RevealmdTemplate
+> - Simple Theme: [reveal-md](https://github.com/webpro/reveal-md)
+> - Reference: [jyywiki](https://jyywiki.cn)
 
 ## 构建与部署
 
+>[!Important]
+> - `custom.css`：亮色主题，载入即可
+> - `dark.css`：暗色配置，使用需附带在 custom.css 后面
+
 <details>
-<summary>旧版指南</summary>
+<summary>旧版指南（不推荐）</summary>
 
 1. 安装 reveal-md
     ```sh 
@@ -51,15 +53,17 @@
 
 ## 用法
 
-和 reveal-js 的快捷键一致，在页面中按下 `?` 可以查看所有快捷键。常用的：
+和 `reveal-js` 的快捷键一致，在页面中按下 `?` 可以查看所有快捷键。常用的：
 
-- N / SPACE：下一页
-- P / Shift SPACE：上一页
-- ← / H：翻到左边页面
-- → / L：翻到右边页面
-- ↑ / K：翻到上边页面
-- ↓ / J：翻到下边页面
-- B / .：暂停（黑屏）
-- F：全屏
-- ESC / O：显示概览
-- S：打开演讲者窗口
+| 按键 | 功能 |
+|------|------|
+| <key>N</key> / <key>SPACE</key> | 下一页 |
+| <key>P</key> / <key>Shift</key> <key>SPACE</key> | 上一页 |
+| <key>←</key> / <key>H</key> | 翻到左边页面 |
+| <key>→</key> / <key>L</key> | 翻到右边页面 |
+| <key>↑</key> / <key>K</key> | 翻到上边页面 |
+| <key>↓</key> / <key>J</key> | 翻到下边页面 |
+| <key>B</key> / <key>.</key> | 暂停（黑屏） |
+| <key>F</key> | 全屏 |
+| <key>ESC</key> / <key>O</key> | 显示概览 |
+| <key>S</key> | 打开演讲者窗口 |
